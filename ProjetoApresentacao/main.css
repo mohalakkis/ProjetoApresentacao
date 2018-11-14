@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(3, 3, 44);
+    height: 100vh;
+    margin: 0;
+    background-image: url(img/star.jpeg)
+}
+
+header b {
+    font-size: 30pt;
+}
+
+header{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.411);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    animation: 2s infinite;
+    animation-name: sobe;
+
+}
+
+header h1{
+    color: white;
+    margin: 0;
+    
+
+}
+
+section{
+    height: 90vh;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+button{
+    font-size: 30pt;
+    border-radius: 10px;
+    height: 10vh;
+    width: 80vw;
+    background-color: rgba(255, 255, 255, 0.171);
+}
+#btnV{
+    font-size: 20pt;
+    border-radius: 10px;
+    height: 10vh;
+    width: 30vw;
+    background-color: #44074441; 
+}
+
+.tela2{
+    height: 100vh;
+    display: none;
+    background: url(img/ezgif.com-video-to-gif.gif);
+}
+
+
+.planet{
+    animation: 2s infinite;
+    animation-name: sobe;
+    width: auto;
+    height: auto;
+}
+
+
+
+
+.info{
+    margin-top: 20px;
+    height: 40vh;
+    width: 90vw;
+    background-color: rgba(255, 255, 255, 0.226);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding: 0px 10px;
+    font-size: 17pt;
+    font-family: sans-serif;
+}
+
+@keyframes sobe{
+    0% {
+        transform: translateY(0px);
+
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
